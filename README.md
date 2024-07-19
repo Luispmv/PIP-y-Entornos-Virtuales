@@ -6,7 +6,7 @@ Dentro de la carpte Graficos creamos un pequeño proyecto que toma informacion d
 
 Queriamos que este proyecto no tuviera problemas con las dependencias asi que esta carpeta en especifico cuenta con un entorno virtual.
 
-## Paso a paso para usar nuestro proyecto
+## GRAFICOS
 
 cd Graficos --> nos movemos a la carpeta Graficos
 
@@ -19,5 +19,21 @@ ls --> Listamos el contenido de Graficos y podemos ver la existencia de un archi
 cat requirements.txt --> Vemos el contenido del archivo y podemos observar que aqui se encuentran todas las dependencias necesarias para que el proyecto funcione
 
 pip3 install -r requirements.txt --> instalamaos todas las dependencias del archivo 
+
+python3 main.py
+
+## WEB-SERVER
+
+cd web-server
+
+python3 -m -venv env 
+
+source /env/bin/activate
+
+ls
+
+cat requirements.txt
+
+pip3 install -r requirements.txt
 
 python3 main.py

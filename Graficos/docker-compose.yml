@@ -1,0 +1,8 @@
+services:
+  graficos:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/Graficos
+
